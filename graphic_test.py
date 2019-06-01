@@ -19,4 +19,5 @@ plt.bar(x, y)
 plt.scatter(x, y, label='Points Plot', color='g', marker='h', s=150)
 
 plt.legend()
-plt.show()
+#plt.show()
+plt.savefig('grafico1.pdf')
